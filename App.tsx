@@ -1,11 +1,11 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
-import FlatCards from './components/FlatCards.tsx';
+import BasicCards from './components/BasicCards.tsx';
 
 const App = () => {
   return (
     <SafeAreaView>
-      <FlatCards />
+      <BasicCards />
     </SafeAreaView>
   );
 };

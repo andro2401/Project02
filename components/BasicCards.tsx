@@ -1,8 +1,8 @@
 import React from 'react';
-import {ScrollView, StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 import {globalStyles} from '../styles/Global.tsx';
 
-const FlatCards = () => {
+const BasicCards = () => {
   return (
     <View style={globalStyles.container}>
       <Text style={globalStyles.title}>Basic Cards</Text>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
     backgroundColor: '#8EA604',
   },
 });
-export default FlatCards;
+export default BasicCards;
