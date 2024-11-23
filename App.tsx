@@ -1,11 +1,13 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import {SafeAreaView} from 'react-native';
 import BasicCards from './components/BasicCards.tsx';
+import ScrollCards from './components/ScrollCards.tsx';
 
 const App = () => {
   return (
     <SafeAreaView>
       <BasicCards />
+      <ScrollCards />
     </SafeAreaView>
   );
 };
