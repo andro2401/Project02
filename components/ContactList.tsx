@@ -72,15 +72,15 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   card:{
-    marginBottom: 10,
+    paddingBottom: 10,
     flexDirection: 'row',
     gap: 10,
     alignItems: 'flex-start',
     flex: 1,
   },
   cardImg:{
-    width: 80,
-    height: 80,
+    width: 70,
+    height: 70,
     borderRadius: 50,
   },
   textContent:{
